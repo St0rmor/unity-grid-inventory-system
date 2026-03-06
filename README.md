@@ -1,6 +1,8 @@
 # unity-grid-inventory-system
 A grid based inventory system that support different sizes of items in Unity with UI toolkit.
 
+<img src="demo.gif" alt="demo" height="300">
+
 ## Introduction
 This system is extremely simple and can be easily integrated into any games. New Unity input system is also used just for rotating the item and it can be replaced.
 
