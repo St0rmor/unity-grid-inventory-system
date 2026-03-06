@@ -6,12 +6,17 @@ This system is extremely simple and can be easily integrated into any games. New
 
 ## Usage
 `UI` the the UIDocument which contains the inventory UI.
+
 `OpenInventory` the Button to open or close the inventory.
+
 `margin` the margin between inventory grids.
-`gridSize` inventory grid size
+
+`gridSize` inventory grid size.
+
 `rotateAction` the inputAction to triger item rotation function.
 
 `itemType` is a ScriptableObject that defines an item in the game.
+
 `item` is a C# class that is used as a data container to be stored in the inventory to represent an item instance.
 
 `Dictionary<Item, Vector2Int>` is the data type that stores the data of items and their grid positions in the inventory. Use this as the input of the `showInventory()`
